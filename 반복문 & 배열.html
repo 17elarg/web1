@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Loop & Array</h1>
+    <script>
+      var roommie = ['아린','초원','세은','여름','하은'];
+    </script>
+    <h2>Roommie</h2>
+    <ul>
+      <script>
+        var i = 0;
+        while(i < roommie.length){
+          document.write('<li><a href="http://a.com/'+roommie[i]+'">'+roommie[i]+'</a></li>');
+          i = i + 1;
+        }
+      </script>
+    </ul>
+  </body>
+</html>
